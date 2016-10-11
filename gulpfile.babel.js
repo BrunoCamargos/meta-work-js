@@ -25,7 +25,7 @@ gulp.task('build', ['clean'], () =>
   .pipe(gulp.dest('dist'))
 );
 
-gulp.task('nodemon', ['build'], () =>
+gulp.task('serve', ['build'], () =>
   plugins.nodemon({
     script: path.join('dist', 'lib/index.js'),
     tasks: ['build']
