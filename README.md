@@ -2,18 +2,18 @@
 O propósito desse projeto é ser um *boilerplate* para construir novos microserviços em ES6. Ele implementa boas práticas, qualidade, segurança e remove preocupações com assuntos irrelevantes ao domínio da solução.
 Ou seja, esse *template* é um projeto NodeJS com basicamente infraestrutura.
 
-Está sendo construído em ES6 junto com [Babel](https://babeljs.io/) - apenas para *import* e *export* - e conta com:
+Está sendo construído em ES6. Atualmente utiliza [Babel](https://babeljs.io/) apenas para *import* e *export* e conta com:
 - Task runners
 	- Npm (test, build, serve, start, version)
 	- Gulp (test, build, serve)
 - Babel (apenas *modules - import/export*)
 - Mocha (sinon, rewire, supertest, chai)
 - Istanbul/Isparta
-- Snyk*
+- Snyk
 - Depcheck*
 - ESLint (airbnb)*
 - Coveralls*
-- Logger (bunyan ou winston)*
+- Bunyan ou Winston)*
 - Circle CI ou Travis CI*
 - Docker*
 
@@ -64,5 +64,13 @@ Na atual versão do node, o novo sistema de modulos ainda não foi implementado,
 ## Mocha
 
 Test runner utilizado para executar os testes. Juntamente com mocha, é utilizado também sinon e rewire para testes de unidade, chai como TDD/BDD *assertion library*, supertest para os testes de integração em APIs Rest e cobertura de código com istanbul e isparta, que é necessário para o gulp.
+
+## Istanbul/Isparta
+
+Para fazer cobertura do código. Isparta é um plugin de instrumentação para o istanbul, necessário quando utiliza gulp task runner
+
+## Snyk
+
+Varre os pacotes utilizados em busca de vulnerabilidades.
 
 https://github.com/airbnb/javascript
