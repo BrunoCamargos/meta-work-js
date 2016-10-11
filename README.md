@@ -9,8 +9,8 @@ Está sendo construído em ES6. Atualmente utiliza [Babel](https://babeljs.io/) 
 - Babel (apenas *modules - import/export*)
 - Mocha (sinon, rewire, supertest, chai)
 - Istanbul/Isparta
+- Depcheck
 - Snyk
-- Depcheck*
 - ESLint (airbnb)*
 - Coveralls*
 - Bunyan ou Winston)*
@@ -68,6 +68,10 @@ Test runner utilizado para executar os testes. Juntamente com mocha, é utilizad
 ## Istanbul/Isparta
 
 Para fazer cobertura do código. Isparta é um plugin de instrumentação para o istanbul, necessário quando utiliza gulp task runner
+
+## [Depcheck](https://github.com/depcheck/depcheck)
+
+Varre os pacotes em busca de algum que não esteja sendo utilizado.
 
 ## [Snyk](https://snyk.io/)
 
