@@ -2,7 +2,7 @@
 O propósito desse projeto é ser um *boilerplate* para construir novos microserviços em ES6. Ele implementa boas práticas, qualidade, segurança e remove preocupações com assuntos irrelevantes ao domínio da solução.
 Ou seja, esse *template* é um projeto NodeJS com basicamente infraestrutura.
 
-Foi completamente escrito em ES6 utilizando [Babel](https://babeljs.io/) - apenas para *import* e *export* - e conta com:
+Está sendo construído em ES6 junto com [Babel](https://babeljs.io/) - apenas para *import* e *export* - e conta com:
 - Task runners
 	- Npm (test, build, serve, start, version)
 	- Gulp (test, build, serve)
