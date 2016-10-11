@@ -51,7 +51,7 @@ gulp start
 Para efeitos comparativos, foram utilizados dois dentre alguns possíveis. São eles [Gulp](http://gulpjs.com/) e [Npm](https://www.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/). O primeiro é mais verboso e depende de uma abstração a mais para utilizar um pacote, além do próprio gulp. Por esse motivo foi descontinuado.
 
 Tarefas:
-- Test - Roda os testes, a cobertura de código e valida o percentual coberto. Pacotes utilizados: [mocha](https://mochajs.org/), [chai](http://chaijs.com/), [sinon](http://sinonjs.org/), [rewire](https://github.com/jhnns/rewire), [supertest-as-promised](https://github.com/WhoopInc/supertest-as-promised), [istanbul](http://gotwarlost.github.io/istanbul/) e [isparta (ES6 com gulp)](https://github.com/douglasduteil/isparta).
+- Test - Roda os testes, a cobertura de código e valida o percentual coberto. Pacotes utilizados: [mocha](https://mochajs.org/), [chai](http://chaijs.com/), [sinon](http://sinonjs.org/), [rewire](https://github.com/jhnns/rewire), [supertest-as-promised](https://github.com/WhoopInc/supertest-as-promised), [istanbul](http://gotwarlost.github.io/istanbul/) e [isparta (necessário com gulp)](https://github.com/douglasduteil/isparta).
 - Build - Cria a distribuição do pacote. Exclui a pasta ```dist```, transforma o código ES6 para ES5 (modulo somente) através do Babel e copia para a pasta já então criada.
 - Start - Inicia a aplicação. Executa a tarefa ```build``` antes.
 - Serve - Inicia a aplicação e reinicia em caso de algum arquivo alterado - utiliza o pacote nodemon. Executa a tarefa ```build``` antes.
@@ -69,7 +69,7 @@ Test runner utilizado para executar os testes. Juntamente com mocha, é utilizad
 
 Para fazer cobertura do código. Isparta é um plugin de instrumentação para o istanbul, necessário quando utiliza gulp task runner
 
-## Snyk
+## [Snyk](https://snyk.io/)
 
 Varre os pacotes utilizados em busca de vulnerabilidades.
 
