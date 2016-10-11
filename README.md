@@ -3,11 +3,11 @@ O propósito desse projeto é ser um *boilerplate* para construir novos microser
 Ou seja, esse *template* é um projeto NodeJS com basicamente infraestrutura.
 
 Foi completamente escrito em ES6 utilizando [Babel](https://babeljs.io/) - apenas para *import* e *export* - e conta com:
-- Task runners
+- [Task runners](#task-runners)
 	- Npm (test, build, serve, start, version)
 	- Gulp (test, build, serve)
-- Babel (apenas *modules - import/export*)
-- Mocha (sinon, rewire, supertest, chai)
+- [Babel (apenas *modules - import/export*)](#babel)
+- [Mocha (sinon, rewire, supertest, chai)](#mocha)
 - Istanbul/Isparta
 - Snyk*
 - Depcheck*
@@ -16,6 +16,8 @@ Foi completamente escrito em ES6 utilizando [Babel](https://babeljs.io/) - apena
 - Logger (bunyan ou winston)*
 - Circle CI ou Travis CI*
 - Docker*
+
+* TODO
 
 # Rápida Introdução
 
@@ -31,7 +33,7 @@ Execute
 ```bash
 npm start
 ```
-
+ou
 ```bash
 gulp start
 ```
@@ -39,12 +41,12 @@ gulp start
 ## Adaptando para seu projeto
 
 1. Clone o repositório;
-2. Edite as pastas ```test``` e ```lib``` e o arquivo ```package.json```.
-3. Customize o restante do projeto
+2. Edite as pastas ```test``` e ```lib``` e o arquivo ```package.json```;
+3. Customize o restante do projeto.
 
 # Explicação Detalhada
 
-## Task Runners
+## Task Runners(#task-runners)
 
 Para efeitos comparativos, foram utilizados dois dentre alguns possíveis. São eles [Gulp](http://gulpjs.com/) e [Npm](https://www.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/). O primeiro é mais verboso e depende de uma abstração a mais para utilizar um pacote, além do próprio gulp. Por esse motivo foi descontinuado.
 
@@ -58,10 +60,11 @@ Tarefas:
 sudo apt-get install haveged
 ```
 
-## [Babel](https://babeljs.io/)
+## Babel(#babel)
 
 Na atual versão do node, o novo sistema de modulos ainda não foi implementado, por isso a necessidade de babel. Para transformar cada ```import``` e ```export``` em CommonJS formato.
-## Mocha
+
+## Mocha(#mocha)
 
 Test runner utilizado para executar os testes. Juntamente com mocha, é utilizado também sinon e rewire para testes de unidade, chai como TDD/BDD *assertion library*, supertest para os testes de integração em APIs Rest e cobertura de código com istanbul e isparta, que é necessário para o gulp.
 
