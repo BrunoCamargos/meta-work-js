@@ -55,10 +55,7 @@ Tarefas:
 - Build - Cria a distribuição do pacote. Exclui a pasta ```dist```, transforma o código ES6 para ES5 (modulo somente) através do Babel e copia para a pasta já então criada.
 - Start - Inicia a aplicação. Executa a tarefa ```build``` antes.
 - Serve - Inicia a aplicação e reinicia em caso de algum arquivo alterado - utiliza o pacote nodemon. Executa a tarefa ```build``` antes.
-- [Version](https://docs.npmjs.com/cli/version) - Gera um novo release. Executa a tarefa ```test``` antes, em seguida incrementa o ´´´package.json´´´, cria o commit, gera a tag e faz push. Será preciso utilizar [gpg key](https://help.github.com/articles/generating-a-gpg-key/). Talvez seja necessário instalar o *haveged* para conseguir gerar a chave.
-```bash
-sudo apt-get install haveged
-```
+- [Version](https://docs.npmjs.com/cli/version) - Gera um novo release. Executa a tarefa ```test``` antes, em seguida incrementa o ´´´package.json´´´, cria o commit, gera a tag e faz push. Será preciso utilizar [gpg key](https://help.github.com/articles/generating-a-gpg-key/). Talvez seja necessário instalar o *haveged* para conseguir gerar a chave. ```bash sudo apt-get install haveged```
 
 ## Babel
 
