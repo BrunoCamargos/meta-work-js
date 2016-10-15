@@ -6,10 +6,10 @@ reporting:
     print: both
 check:
     global:
-        statements: 0
-        lines: 0
+        statements: 50
+        lines: 50
         branches: 0
-        functions: 0
+        functions: 50
         excludes: []
     each:
         statements: 0
