@@ -11,7 +11,7 @@ Está sendo construído em ES6. Atualmente utiliza [Babel](https://babeljs.io/) 
 - Istanbul/Isparta
 - Depcheck
 - Snyk
-- ESLint (airbnb)*
+- ESLint (airbnb)
 - Coveralls*
 - Bunyan ou Winston)*
 - Circle CI ou Travis CI*
@@ -76,5 +76,9 @@ Varre os pacotes em busca de algum que não esteja sendo utilizado.
 ## [Snyk](https://snyk.io/)
 
 Varre os pacotes utilizados em busca de vulnerabilidades.
+
+## [Eslint](http://eslint.org/)
+
+Varre cada pedaço de código em busca de violações aos padrões e boas práticas adotadas ([airbnb](https://github.com/airbnb/javascript))
 
 https://github.com/airbnb/javascript
