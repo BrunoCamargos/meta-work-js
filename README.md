@@ -1,3 +1,5 @@
+[![CircleCI](https://img.shields.io/circleci/project/BrunoCamargos/meta-work-js.svg)](https://circleci.com/gh/BrunoCamargos/meta-work-js)
+
 # Visão Geral
 O propósito desse projeto é ser um *boilerplate* para construir novos microserviços em ES6. Ele implementa boas práticas, qualidade, segurança e remove preocupações com assuntos irrelevantes ao domínio da solução.
 Ou seja, esse *template* é um projeto NodeJS com basicamente infraestrutura.
