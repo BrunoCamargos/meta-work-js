@@ -1,8 +1,17 @@
 extends: airbnb
+
 plugins:
   - react
   - jsx-a11y
   - import
+
+rules:
+  import/no-extraneous-dependencies: 
+    - "error"
+    - devDependencies: 
+      - "**/test/**/*-test.js"
+      - "**/gulpfile.babel.js"
+
 env:
   node: true
   mocha: true

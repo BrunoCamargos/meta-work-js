@@ -1,5 +1,3 @@
-/* eslint import/no-extraneous-dependencies: 0 */
-
 import chai from 'chai';
 import soma from '../../lib/expense-transactions';
 

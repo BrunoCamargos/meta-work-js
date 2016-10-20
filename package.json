@@ -9,8 +9,8 @@
     "mocha": "_mocha",
     "lint": "./node_modules/.bin/eslint ./**.js .",
     "pretest": "npm run lint && ./node_modules/.bin/depcheck --ignores express,eslint-config-airbnb,eslint-plugin-import,eslint-plugin-jsx-a11y,eslint-plugin-react && ./node_modules/.bin/snyk test",
-    "test": "./node_modules/.bin/istanbul cover _mocha",
-    "posttest": "./node_modules/.bin/istanbul check-coverage",
+    "test": "./node_modules/.bin/istanbul cover _mocha && ./node_modules/.bin/istanbul check-coverage",
+    "posttest": "export CODACY_PROJECT_TOKEN=9800b563ab894f8dbcc5ff80d15b3b5d && cat ./coverage/lcov.info | ./node_modules/.bin/codacy-coverage",
     "debug": "export NODE_ENV=dev && _mocha --debug-brk",
     "start": "npm run build && node dist/lib/index.js",
     "serve": "./node_modules/.bin/nodemon --exec 'npm run start'",
@@ -28,11 +28,15 @@
     "url": "https://github.com/BrunoCamargos/meta-work-js/issues"
   },
   "homepage": "https://github.com/BrunoCamargos/meta-work-js#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
   "devDependencies": {
     "babel-cli": "^6.16.0",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.16.0",
     "babel-register": "^6.16.3",
     "chai": "^3.5.0",
+    "codacy-coverage": "^2.0.0",
     "del": "^2.2.2",
     "depcheck": "^0.6.4",
     "eslint": "^3.7.1",
@@ -51,8 +55,5 @@
     "mocha": "^3.1.0",
     "nodemon": "^1.11.0",
     "snyk": "^1.19.1"
-  },
-  "dependencies": {
-    "express": "^4.14.0"
   }
 }

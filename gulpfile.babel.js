@@ -1,5 +1,3 @@
-/* eslint import/no-extraneous-dependencies: 0 */
-
 import gulp from 'gulp';
 import gulpLoadPlugins from 'gulp-load-plugins';
 import path from 'path';
