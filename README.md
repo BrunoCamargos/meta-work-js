@@ -2,6 +2,7 @@
 [![Gemnasium](https://img.shields.io/gemnasium/BrunoCamargos/meta-work-js.svg)](https://gemnasium.com/github.com/BrunoCamargos/meta-work-js)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/9d78441d792143a78c99d52d54145117)](https://www.codacy.com/app/bruno-camargos/meta-work-js?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=BrunoCamargos/meta-work-js&amp;utm_campaign=Badge_Grade)
 [![Codacy Badge](https://api.codacy.com/project/badge/Coverage/9d78441d792143a78c99d52d54145117)](https://www.codacy.com/app/bruno-camargos/meta-work-js?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=BrunoCamargos/meta-work-js&amp;utm_campaign=Badge_Coverage)
+[![GitHub license](https://img.shields.io/github/license/BrunoCamargos/meta-work-js.svg)](https://github.com/BrunoCamargos/meta-work-js)
 
 # Visão Geral
 O propósito desse projeto é ser um *boilerplate* para construir novos microserviços em ES6. Ele implementa boas práticas, qualidade, segurança e remove preocupações com assuntos irrelevantes ao domínio da solução.
