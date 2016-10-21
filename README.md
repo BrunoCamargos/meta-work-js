@@ -1,5 +1,6 @@
 [![CircleCI](https://img.shields.io/circleci/project/BrunoCamargos/meta-work-js.svg)](https://circleci.com/gh/BrunoCamargos/meta-work-js)
 [![Gemnasium](https://img.shields.io/gemnasium/BrunoCamargos/meta-work-js.svg)](https://gemnasium.com/github.com/BrunoCamargos/meta-work-js)
+[![Known Vulnerabilities](https://snyk.io/test/github/BrunoCamargos/meta-work-js/badge.svg)](https://snyk.io/test/github/BrunoCamargos/meta-work-js)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/9d78441d792143a78c99d52d54145117)](https://www.codacy.com/app/bruno-camargos/meta-work-js?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=BrunoCamargos/meta-work-js&amp;utm_campaign=Badge_Grade)
 [![Codacy Badge](https://api.codacy.com/project/badge/Coverage/9d78441d792143a78c99d52d54145117)](https://www.codacy.com/app/bruno-camargos/meta-work-js?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=BrunoCamargos/meta-work-js&amp;utm_campaign=Badge_Coverage)
 [![GitHub license](https://img.shields.io/github/license/BrunoCamargos/meta-work-js.svg)](https://github.com/BrunoCamargos/meta-work-js)
@@ -35,7 +36,7 @@ git clone git@github.com:BrunoCamargos/meta-work-js.git
 cd meta-work-js
 ```
 
-Execute
+Então
 ```bash
 npm start
 ```
@@ -57,7 +58,7 @@ gulp start
 Para efeitos comparativos, foram utilizados dois dentre alguns possíveis. São eles [Gulp](http://gulpjs.com/) e [Npm](https://www.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/). O primeiro é mais verboso e depende de uma abstração a mais para utilizar um pacote, além do próprio gulp. Por esse motivo foi abandonado.
 
 Tarefas:
-- Test - Exucuta os testes, a cobertura de código e valida o percentual coberto. Pacotes utilizados: [mocha](https://mochajs.org/), [chai](http://chaijs.com/), [sinon](http://sinonjs.org/), [rewire](https://github.com/jhnns/rewire), [supertest-as-promised](https://github.com/WhoopInc/supertest-as-promised), [istanbul](http://gotwarlost.github.io/istanbul/) e [isparta (necessário com gulp)](https://github.com/douglasduteil/isparta).
+- Test - Exucuta testes, cobertura de código e valida o percentual coberto. Pacotes utilizados: [mocha](https://mochajs.org/), [chai](http://chaijs.com/), [sinon](http://sinonjs.org/), [rewire](https://github.com/jhnns/rewire), [supertest-as-promised](https://github.com/WhoopInc/supertest-as-promised), [istanbul](http://gotwarlost.github.io/istanbul/) e [isparta (necessário com gulp)](https://github.com/douglasduteil/isparta).
 - Build - Cria a distribuição do pacote. Exclui a pasta ```dist```, transforma o código ES6 para ES5 (modulo somente) através do Babel e copia para a pasta já então criada.
 - Start - Inicia a aplicação. Executa a tarefa ```build``` antes.
 - Serve - Inicia a aplicação e reinicia em caso de algum arquivo alterado - utiliza o pacote nodemon. Executa a tarefa ```build``` antes.
@@ -77,15 +78,15 @@ Faz análise e cobertura estática do código. Isparta é um plugin de instrumen
 
 ## [Depcheck](https://github.com/depcheck/depcheck)
 
-Busca por pacotes não estejam sendo utilizados.
+Busca por pacotes que não estejam sendo utilizados.
 
 ## [Snyk](https://snyk.io/)
 
-Varre os pacotes utilizados em busca de vulnerabilidades. Pode também monitorar o projeto e emitir alertas.
+Busca por vulnerabilidades nos pacotes utilizados. Pode também monitorar o projeto e emitir alertas.
 Similares:
  - [Gemnasium](https://gemnasium.com/): De maneira unificada, exibe informações de changelog dos pacotes, ideal para analisar possíveis atualizações.
  - [NSP](https://github.com/nodesecurity/nsp): É mais utilizado que o snyk e uma das bases de informações que o snyk consulta.
 
 ## [Eslint](http://eslint.org/)
 
-Varre o código em busca de violações aos padrões e boas práticas adotadas ([airbnb](https://github.com/airbnb/javascript))
+Analisa o código fonte em busca de violações aos padrões e boas práticas adotadas ([airbnb](https://github.com/airbnb/javascript))
