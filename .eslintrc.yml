@@ -7,12 +7,12 @@ plugins:
 
 rules:
   import/no-extraneous-dependencies: 
-    - "error"
+    - error
     - devDependencies: 
       - "**/test/**/*-test.js"
       - "**/gulpfile.babel.js"
   comma-dangle:
-    - "error"
+    - error
     -        
       arrays: "never"
       objects: "always"
