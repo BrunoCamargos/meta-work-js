@@ -11,6 +11,14 @@ rules:
     - devDependencies: 
       - "**/test/**/*-test.js"
       - "**/gulpfile.babel.js"
+  comma-dangle:
+    - "error"
+    -        
+      arrays: "never"
+      objects: "always"
+      imports: "never"
+      exports: "never"
+      functions: "ignore"
 
 env:
   node: true

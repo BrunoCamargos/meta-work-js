@@ -41,14 +41,14 @@ gulp.task('pre-test', ['clean'], () =>
 );
 
 gulp.task('test', ['pre-test'], () =>
-  gulp.src(paths.tests, { read: false })
+  gulp.src(paths.tests, { read: false, })
   .pipe(plugins.mocha())
   .pipe(plugins.istanbul.writeReports({
     reporters: ['lcov', 'text', 'text-summary'],
   }))
   .pipe(plugins.istanbul.enforceThresholds({
     thresholds: {
-      global: { statements: 80, branches: 80, functions: 80, lines: 76 },
+      global: { statements: 80, branches: 80, functions: 80, lines: 76, },
     },
   }))
 );
