@@ -5,6 +5,9 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Coverage/9d78441d792143a78c99d52d54145117)](https://www.codacy.com/app/bruno-camargos/meta-work-js?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=BrunoCamargos/meta-work-js&amp;utm_campaign=Badge_Coverage)
 [![GitHub license](https://img.shields.io/github/license/BrunoCamargos/meta-work-js.svg)](https://github.com/BrunoCamargos/meta-work-js)
 [![Coverage Status](https://coveralls.io/repos/github/BrunoCamargos/meta-work-js/badge.svg?branch=master)](https://coveralls.io/github/BrunoCamargos/meta-work-js?branch=master)
+[![bitHound Dependencies](https://www.bithound.io/github/BrunoCamargos/meta-work-js/badges/dependencies.svg)](https://www.bithound.io/github/BrunoCamargos/meta-work-js/master/dependencies/npm)
+[![bitHound Dev Dependencies](https://www.bithound.io/github/BrunoCamargos/meta-work-js/badges/devDependencies.svg)](https://www.bithound.io/github/BrunoCamargos/meta-work-js/master/dependencies/npm)
+
 
 # Visão Geral
 O propósito desse projeto é ser um *boilerplate* para construir novos microserviços em ES6. Ele implementa boas práticas, qualidade, segurança e remove preocupações com assuntos irrelevantes ao domínio da solução.
@@ -18,11 +21,12 @@ Está sendo construído em ES6. Atualmente utiliza [Babel](https://babeljs.io/) 
 - Mocha (sinon, rewire, supertest, chai)
 - Istanbul/Isparta
 - Depcheck
+- Gemnasium
 - Snyk
 - ESLint (airbnb)
-- Coveralls*
-- Bunyan ou Winston)*
-- Circle CI ou Travis CI ou Codeship*
+- Coveralls, Code Climate, Codacy e bitHound
+- Bunyan ou Winston*
+- Circle CI, Travis CI, Codeship e HoundCI*
 - Docker*
 
 \* TODO
