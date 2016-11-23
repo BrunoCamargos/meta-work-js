@@ -4,6 +4,7 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/9d78441d792143a78c99d52d54145117)](https://www.codacy.com/app/bruno-camargos/meta-work-js?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=BrunoCamargos/meta-work-js&amp;utm_campaign=Badge_Grade)
 [![Codacy Badge](https://api.codacy.com/project/badge/Coverage/9d78441d792143a78c99d52d54145117)](https://www.codacy.com/app/bruno-camargos/meta-work-js?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=BrunoCamargos/meta-work-js&amp;utm_campaign=Badge_Coverage)
 [![GitHub license](https://img.shields.io/github/license/BrunoCamargos/meta-work-js.svg)](https://github.com/BrunoCamargos/meta-work-js)
+[![Coverage Status](https://coveralls.io/repos/github/BrunoCamargos/meta-work-js/badge.svg?branch=master)](https://coveralls.io/github/BrunoCamargos/meta-work-js?branch=master)
 
 # Visão Geral
 O propósito desse projeto é ser um *boilerplate* para construir novos microserviços em ES6. Ele implementa boas práticas, qualidade, segurança e remove preocupações com assuntos irrelevantes ao domínio da solução.
@@ -21,10 +22,10 @@ Está sendo construído em ES6. Atualmente utiliza [Babel](https://babeljs.io/) 
 - ESLint (airbnb)
 - Coveralls*
 - Bunyan ou Winston)*
-- Circle CI ou Travis CI*
+- Circle CI ou Travis CI ou Codeship*
 - Docker*
 
-* TODO
+\* TODO
 
 # Rápida Introdução
 
