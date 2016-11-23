@@ -7,7 +7,9 @@
 [![Coverage Status](https://coveralls.io/repos/github/BrunoCamargos/meta-work-js/badge.svg?branch=master)](https://coveralls.io/github/BrunoCamargos/meta-work-js?branch=master)
 [![bitHound Dependencies](https://www.bithound.io/github/BrunoCamargos/meta-work-js/badges/dependencies.svg)](https://www.bithound.io/github/BrunoCamargos/meta-work-js/master/dependencies/npm)
 [![bitHound Dev Dependencies](https://www.bithound.io/github/BrunoCamargos/meta-work-js/badges/devDependencies.svg)](https://www.bithound.io/github/BrunoCamargos/meta-work-js/master/dependencies/npm)
-
+[![Code Climate](https://codeclimate.com/github/BrunoCamargos/meta-work-js/badges/gpa.svg)](https://codeclimate.com/github/BrunoCamargos/meta-work-js)
+[![Test Coverage](https://codeclimate.com/github/BrunoCamargos/meta-work-js/badges/coverage.svg)](https://codeclimate.com/github/BrunoCamargos/meta-work-js/coverage)
+[![Issue Count](https://codeclimate.com/github/BrunoCamargos/meta-work-js/badges/issue_count.svg)](https://codeclimate.com/github/BrunoCamargos/meta-work-js)
 
 # Visão Geral
 O propósito desse projeto é ser um *boilerplate* para construir novos microserviços em ES6. Ele implementa boas práticas, qualidade, segurança e remove preocupações com assuntos irrelevantes ao domínio da solução.
