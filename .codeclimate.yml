@@ -1,4 +1,18 @@
-engines: 
+engines:
   eslint:
     enabled: true
     channel: "eslint-3"
+    config:
+      config: ".eslintrc.yml"
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - javascript
+ratings:
+  paths:
+    - "**.js"
+exclude_paths:
+  - "gulpfile.babel.js"
+  - "test/**"
+  
